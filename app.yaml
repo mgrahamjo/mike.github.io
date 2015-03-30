@@ -1,0 +1,9 @@
+application: scenic-healer-90004
+version: 1
+runtime: php
+api_version: 1
+module: default
+
+handlers:
+- url: /.*
+  script: amenities.php
